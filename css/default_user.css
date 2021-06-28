@@ -1,0 +1,475 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+#log-in{
+  margin-left: 900px;
+  padding-right:20px;
+}
+
+#address-box{
+  height:450px;
+}
+
+.navigation-bar{
+  width: 100%;
+  background-color: black;
+  height: 90px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 25px;
+}
+
+.navigation-bar img{
+  width: 52px;
+  height: 52px;
+}
+
+.navigation-bar a{
+  text-decoration: none;
+  color: #d8dbe1;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding-left:15px;
+  font-size: 17px;
+}
+
+.navigation-bar a:hover{
+  text-decoration: none;
+  color: #9398a3;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding-left:15px;
+  font-size: 17px;
+}
+
+.navigation-bar button{
+  border-radius: 8px;
+  background-color: transparent;
+  border-color:#d8dbe1;
+  border: 1px solid #d8dbe1;
+  color: #d8dbe1;
+  font-size: 17px;
+  padding:5px;
+}
+
+.navigation-bar button:hover{
+  border-radius: 8px;
+  background-color: transparent;
+  border-color:#9398a3;
+  border: 1px solid #9398a3;
+  color: #9398a3;
+  font-size: 17px;
+  padding:5px;
+}
+
+.userinterface{
+  display: flex;
+  background-color: white;
+  height: 160vh;
+}
+
+.user-menu{
+  width: 16%;
+  border-right:1px solid gray;
+  height: 160vh;
+}
+
+.user-content{
+  width: 84%;
+  display:block;
+}
+
+.user-menu a {
+  display: block;
+  text-decoration: none;
+  color: #202020;
+  text-align: center;
+  padding: 40px;
+  font-weight: bold;
+}
+
+.user-menu a:hover{
+  color: #0094f4;
+}
+
+#ending-link{
+  display: block;
+  text-decoration: none;
+  color: #202020;
+  text-align: center;
+  padding: 40px;
+  border-bottom: 1px solid #BEBEBE;
+}
+
+#ending-link:hover{
+  color:#5882ff;
+}
+
+.operations{
+  width: 84%;
+  background-color: #fafafa;
+}
+
+.card{
+  width: 900px;
+  height: 250px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card h2{
+  text-align:left;
+  margin-left:50px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.card-box{
+  width: 800px;
+  height: 80px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+}
+
+.card-box h2{
+  font-size: 18px;
+  color:#BEBEBE;
+  text-align: left;
+}
+
+.credit-card-box{
+  display: block;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.credit-card-box p{
+  padding: 0px;
+  margin: 0px;
+  margin-left: 30px;
+}
+
+.columns{
+  display: flex;
+}
+
+.second-column{
+  display: block;
+  width: 47%;
+}
+
+.first-column{
+  display: block;
+  width: 52%;
+}
+
+.text-line{
+  display: block;
+  margin-left: 30px;
+  padding: 10px;
+  border-bottom:1px solid gray;
+}
+
+.text-line p{
+  color: #BEBEBE;
+}
+
+.text-line h4{
+  color: black;
+  font-weight: bold;
+}
+
+#button-content-1{
+  width:120px;
+  height:40px;
+  background-color: #51555e;
+  border: none;
+  border-radius: 44px;
+  margin-top: 20px;
+  margin-left: 350px;
+}
+
+#button-content-1:hover{
+  background: -webkit-linear-gradient(
+-70deg
+,#ff7170,#ffe57f);
+}
+
+#button-content-2{
+  width:120px;
+  height:40px;
+  background-color: #51555e;
+  border: none;
+  border-radius: 44px;
+  margin-top: 20px;
+  margin-left: 450px;
+}
+
+#button-content-2:hover{
+  background: -webkit-linear-gradient(
+-70deg
+,#ff7170,#ffe57f);
+}
+
+#button-content-3{
+  width:120px;
+  height:40px;
+  background-color: #51555e;
+  border: none;
+  border-radius: 44px;
+  margin-top: 20px;
+  margin-left: 750px;
+}
+
+#button-content-3:hover{
+  background: -webkit-linear-gradient(
+-70deg
+,#ff7170,#ffe57f);
+}
+
+.smooth-box{
+  width: 1000px;
+  height: 800px;
+  border-radius: 30px 30px 30px 30px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: auto;
+  margin-top: 120px;
+}
+
+#content-list-head{
+  font-size: 52px;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(
+-70deg
+,#ff7170,#ffe57f);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+margin-top: 260px;
+margin-left: 90px;
+position: absolute;
+}
+
+.button-list{
+  width:244.6px;
+  height:45px;
+  border: none;
+  border-radius: 44px;
+  background-color: #51555e;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#steambutton{
+  width:120px;
+  height:45px;
+  background-color: #51555e;
+  border: none;
+  border-radius: 44px;
+}
+
+#steambutton:hover{
+  background: -webkit-linear-gradient(
+-70deg
+,#ff7170,#ffe57f);
+}
+
+#steambutton:active{
+  background-color: #0094f4;
+}
+
+#epicgamesbutton{
+  width:120px;
+  height:45px;
+  background-color: #51555e;
+  border: none;
+  border-radius: 44px;
+}
+
+#epicgamesbutton:hover{
+  background: -webkit-linear-gradient(
+-70deg
+,#ff7170,#ffe57f);
+}
+.steam{
+  display: none;
+  position: absolute;
+}
+
+.epic-games{
+  display:none;
+  position: absolute;
+}
+
+.steam-box{
+  width: 970px;
+  height: 600px;
+  background: url(https://wallpapercave.com/wp/wp2068708.png);
+  background-size: cover;
+  margin-left:20px;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+.epic-games-box{
+  width: 970px;
+  height: 600px;
+  background: url(https://mlmte3jbn7f1.i.optimole.com/T4VRF0w.JzrJ~5409a/w:auto/h:auto/q:auto/https://www.gamezone.com/wp-content/uploads/2020/07/epic-games-store-background-logo.jpg);
+  background-size:cover;
+  margin-left:20px;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+.dform{
+  display: block;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+}
+
+.form-group{
+  margin-top: 50px;
+  display:grid;
+}
+
+.form-group label{
+  color:#BEBEBE;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group input{
+  width:400px;
+  height:50px;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;;
+  background-color: black;
+  color: white;
+}
+
+
+.dform button{
+  display: block;
+  width:400px;
+  height:50px;
+  margin-top: 20px;
+  background-color: #51555e;
+  border: none;
+  border-radius: 44px;
+  margin-left:290px;
+}
+
+.dform button:hover{
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(
+-70deg
+,#ff7170,#ffe57f);
+}
+
+.configuration-box{
+  display: block;
+  font-size: 30px;
+  padding:55px;
+}
+
+.fr-answer-box{
+  height: 200px;
+  width: 800px;
+  background: #040d21;
+  box-shadow: 0 0 65px rgb(68 78 199 / 40%), 0 0 0 1px hsl(0deg 0% 100% / 10%), 0 2px 2px rgb(0 0 0 / 3%), 0 4px 4px rgb(0 0 0 / 4%), 0 10px 8px rgb(0 0 0 / 5%), 0 15px 15px rgb(0 0 0 / 6%), 0 30px 30px rgb(0 0 0 / 7%), 0 70px 65px rgb(0 0 0 / 9%);
+  border-radius: 30px 30px 30px 30px;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+.fr-answer-box label{
+  margin-left:140px;
+  margin-top: 60px;
+  background: -webkit-linear-gradient(
+-70deg
+,#ff7170,#ffe57f);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.fr-answer-box select{
+  width:350px;
+}
+
+#configurationheader{
+  font-size: 52px;
+  background: -webkit-linear-gradient(
+-70deg
+,#db469f,#2188ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.configurationbutton button{
+  display: block;
+  width:400px;
+  height:50px;
+  margin-top:60px;
+  background-color: #51555e;
+  border: none;
+  border-radius: 44px;
+  margin-left: 360px;
+}
+
+.configurationbutton button:hover{
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(
+-70deg
+,#ff7170,#ffe57f);
+}
+
+.support{
+  display: flex;
+
+}
+
+.support-text{
+  margin-top: 35px;
+  margin-left: 100px;
+}
+.support-text h2{
+  font-size:33px;
+    background: -webkit-linear-gradient(
+-70deg
+ ,#db469f,#2188ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.support-text p{
+  font-size: 16px;
+    color: #8193b2;
+    width: 500px;
+    border-bottom: 2px solid #51555e;
+}
+
+.support-button button{
+  width:120px;
+  height:45px;
+  background-color: #51555e;
+  border: none;
+  border-radius: 44px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.support-button button:hover{
+  background: -webkit-linear-gradient(
+-70deg
+,#ff7170,#ffe57f);
+}
